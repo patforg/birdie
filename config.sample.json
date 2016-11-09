@@ -1,0 +1,13 @@
+{
+    "twitter_api": {
+        "consumer_key": "",
+        "consumer_secret": "",
+        "access_token_key": "",
+        "access_token_secret": ""
+    },
+    "input_file": "",
+    "db_file": "./data/db.sqlite",
+    "max_iterations": -1,
+    "limit_per_15_minutes": 60,
+    "tweets_per_call": 100 
+}

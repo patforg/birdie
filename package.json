@@ -1,0 +1,17 @@
+{
+  "name": "twitter-grab",
+  "version": "1.0.0",
+  "description": "tool to grab tweets and store them in a storage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Patrick Forget <patforg@webtrendi.com>",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.1.2",
+    "event-stream": "^3.3.4",
+    "sqlite3": "^3.1.8",
+    "twitter": "^1.4.0"
+  }
+}

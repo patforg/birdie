@@ -1,0 +1,6 @@
+**.swp
+**.swo
+config.json
+node_modules/
+data/
+!data/README.md
