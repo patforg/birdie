@@ -52,7 +52,12 @@ var processIds = function(err, ids) {
         };
     
         twitterClient.get("statuses/lookup", params, function (err, tweets, response) {
-            if (err) throw err;
+            if (err) {
+                console.log(err);
+                importNextBatch();
+                return;
+            } //if
+
             process.stdout.write('.');
             if (tweets.length == 0) {
                 importNextBatch();
